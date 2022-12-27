@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/QIRF.SDK.1.0"/>
+  <project dest-branch="refs/heads/qirf.lnx.1.0" name="clo/le/meta-qti-robotics" path="layers/poky/meta-qti-robotics" revision="2aeb11bea363d5276be13166d1fc0916129408b1" upstream="refs/heads/qirf.lnx.1.0"/>
+  <project dest-branch="refs/heads/qirf.lnx.1.0" name="clo/le/platform/vendor/qcom-opensource/robotics-oss" path="layers/src/vendor/qcom/opensource/robotics-oss" revision="e0c8f6570619a326054a1a3cb4df7a720828cacb" upstream="refs/heads/qirf.lnx.1.0"/>
+</manifest>
