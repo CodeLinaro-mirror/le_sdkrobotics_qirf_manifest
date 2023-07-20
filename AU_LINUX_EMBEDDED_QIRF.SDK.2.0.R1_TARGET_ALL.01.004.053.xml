@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/QIRF.SDK.2.0"/>
+  <project name="clo/le/meta-qti-robotics" path="workspace/poky/meta-qti-robotics" revision="ff544c4e69a54161752efdc05bd71b631d7ca5f0" upstream="refs/heads/qirf.lnx.2.0.r1-rel">
+    <copyfile dest="robotics_sdk_build.py" src="scripts/robotics_sdk_build.py"/>
+  </project>
+  <project name="clo/le/meta-qti-robotics-sdk" path="disregard/meta-qti-robotics-sdk" revision="d80fab07c3395f916969ed5f9d96c1eab7e07c13" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+  <project name="clo/le/platform/external/nuttx" path="external/nuttx" revision="b0cdc181114e753d8c296c52f9c2c505518c5544" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+  <project name="clo/le/platform/external/nuttx-apps" path="external/nuttx-apps" revision="20b466f9efbe8e5337ede5e99f4cf485b5aab8d1" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robotics-oss" path="workspace/src/vendor/qcom/opensource/robotics-oss" revision="e0c8f6570619a326054a1a3cb4df7a720828cacb" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+  <project name="clo/le/robosdk/oss/navigation" path="workspace/src/vendor/qcom/opensource/robosdk/navigation" revision="6ea30a665ac1b3861e56cf0f1bfff9e510a7cd8a" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+  <project name="clo/le/robosdk/oss/robot-control" path="workspace/src/vendor/qcom/opensource/robosdk/robot-control" revision="109f1f002fda1637a42724754b2e797406c553a8" upstream="refs/heads/qirf.lnx.2.0.r1-rel"/>
+</manifest>
