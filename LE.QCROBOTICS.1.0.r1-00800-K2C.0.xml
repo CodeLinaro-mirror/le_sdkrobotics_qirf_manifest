@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.QCROBOTICS.0.0" sync-j="8"/>
+  <project name="clo/le/meta-qti-robotics" path="disregard/poky/meta-qti-robotics" revision="559dc761c1f64be5c03ab0667640f3260acbfdf0" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/meta-qti-robotics-bsp" path="layers/meta-qti-robotics-bsp" revision="317a8543060540709a25e03ddcaa573c72accae6" upstream="refs/heads/robotics-internal.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/meta-qti-robotics-distro" path="layers/meta-qti-robotics-distro" revision="8556c9aab8760fb230c1b1e095237422fceb18b9" upstream="refs/heads/robotics-internal.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/meta-qti-ros-oss" path="disregard/poky/meta-qti-ros-oss" revision="cadc9a126814348c6744fa80f4286c0830b9ea23" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/meta-ros" path="layers/meta-ros" revision="a0c6d2a5774e279291b3e7a0f4495cf156d93c0a" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/external/nuttx" path="sources/external/nuttx" revision="87e818f4cfedfb5dbc15e0a08e26bbd816fc0903" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/external/nuttx-apps" path="sources/external/nuttx-apps" revision="e1530b989cb7529b2142d9fd9e0d628988b2a71a" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/external/ros-perception/image_transport_plugins" path="sources/external/ros-perception/image_transport_plugins" revision="4519b9c1abc103f9188b44968cdcde3d8d1ae142" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-battery" path="sources/vendor/qcom/opensource/robot-battery" revision="edf6cc6861fa93590056a995128c7f5c1555d3a5" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-control" path="sources/vendor/qcom/opensource/robotsdk/robot_control" revision="77be3d7b6318d864a5e97f9328c312b98269fd6a" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-navigation" path="sources/vendor/qcom/opensource/robotsdk/navigation" revision="5d0d8382c30acac83c57e6ab0aef3f0dd0f9b741" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-sensor" path="sources/vendor/qcom/opensource/robot-sensor" revision="adc405b3d55ab21f42981eef4439db62a61c068d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robotics-oss" path="sources/vendor/qcom/opensource/robotics-oss" revision="48631b55980e67341518d4c43e5e66eedda27e26" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/ros" path="sources/vendor/qcom/opensource/ros" revision="c0ed53a638e6fc9e985a42d030df851aa6bd4bbf" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+</manifest>
