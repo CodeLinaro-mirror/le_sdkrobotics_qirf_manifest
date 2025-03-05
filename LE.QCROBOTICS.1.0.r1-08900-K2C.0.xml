@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.QCROBOTICS.1.0" sync-j="8"/>
+  <project name="clo/le/platform/external/nuttx" path="sources/robotics/external/nuttx" revision="e50bbb6eb542d3950481e1d464cd26ddf0208c08" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/external/nuttx-apps" path="sources/robotics/external/nuttx-apps" revision="310e62e522b0b7d36a34ca5ff06e2d6e7cb4d81d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/external/ros-perception/image_transport_plugins" path="sources/robotics/external/ros-perception/image_transport_plugins" revision="4519b9c1abc103f9188b44968cdcde3d8d1ae142" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-2d-slam-service" path="sources/robotics/robotics-service/robot-2d-slam-service" revision="be2eecf7f7a492f77c5e8fd34bfa532bbd9c88c5" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-amr-service" path="sources/robotics/robotics-service/robot-amr-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-arm-service" path="sources/robotics/robotics-service/robot-arm-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-audio" path="sources/robotics/robotics-capacity/robot-audio" revision="01f1b837f78fd3157eb32e66e27ba5c3b2ac9627" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-audio-service" path="sources/robotics/robotics-service/robot-audio-service" revision="01f1b837f78fd3157eb32e66e27ba5c3b2ac9627" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-base" path="sources/robotics/robotics-capacity/robot-base" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-battery" path="sources/robotics/robot-battery" revision="cb5e2cea40f53509ffa15dbf65f19727ad2da804" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-benchmark" path="sources/robotics/robotics-capacity/robot-benchmark" revision="01f1b837f78fd3157eb32e66e27ba5c3b2ac9627" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-camera" path="disregard/sources/robotics/robot-camera" revision="92977c57b2e3dbac37cf6c0b82e7fb64c62b0203" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-color-convert" path="sources/robotics/robotics-capacity/robot-color-convert" revision="be2eecf7f7a492f77c5e8fd34bfa532bbd9c88c5" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-control" path="sources/robotics/robotsdk/robot_control" revision="77be3d7b6318d864a5e97f9328c312b98269fd6a" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-image-segment" path="sources/robotics/robotics-capacity/robot-image-segment" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-motion-service" path="sources/robotics/robotics-service/robot-motion-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-navigation" path="sources/robotics/robotsdk/navigation" revision="5d0d8382c30acac83c57e6ab0aef3f0dd0f9b741" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-navigation-service" path="sources/robotics/robotics-service/robot-navigation-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-nn" path="sources/robotics/robotics-capacity/robot-nn" revision="01f1b837f78fd3157eb32e66e27ba5c3b2ac9627" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-object-detect" path="sources/robotics/robotics-capacity/robot-object-detect" revision="01f1b837f78fd3157eb32e66e27ba5c3b2ac9627" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-pipeline-manager-service" path="sources/robotics/robotics-service/robot-pipeline-manager-service" revision="be2eecf7f7a492f77c5e8fd34bfa532bbd9c88c5" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-resize" path="sources/robotics/robotics-capacity/robot-resize" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-sensor" path="sources/robotics/robot-sensor" revision="cc6df61ef46b9dc9c6169714ea0e7b69664f1fa8" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-sensor-service" path="sources/robotics/robotics-service/robot-sensor-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-transport" path="sources/robotics/robotics-capacity/robot-transport" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-video" path="sources/robotics/robotics-capacity/robot-video" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robot-vision-service" path="sources/robotics/robotics-service/robot-vision-service" revision="9e4bd798149ebe0dd323fe14b2297d81f418b79d" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/robotics-oss" path="sources/robotics/robotics-oss" revision="f7e7b5a67d04bd2c22b5ca4c04b616ae797a31d4" upstream="refs/heads/robotics.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/ros" path="sources/robotics/ros" revision="ffc7b84ae7309994d6622a551646abfaed36448d" upstream="refs/heads/ros.qclinux.1.0.r1-rel"/>
+  <project name="clo/le/qirp-oss" path="sources/robotics/qirp-oss" revision="19e621f99cd90e93143ef4b83715a14db60420f6" upstream="refs/heads/robotics-sdk.qclinux.1.0.r1-rel"/>
+</manifest>
